@@ -7,11 +7,14 @@
 body {
 
     display: grid;
-    grid-template-rows: 25vh 60vh 15vh;
+    grid-template-rows: 120px 400px 100px;
+    /* align-items: center; */
+    align-content: center;
 
     margin: 10px auto;
     width: 70%;
     max-width: 900px;
+
 
 }
 
