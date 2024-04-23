@@ -54,8 +54,8 @@ main {
 
 img {
     display: block;
-    width: auto;
-    height: 150px;
+    width: 200px;
+    height: auto;
 }
 
 aside {
