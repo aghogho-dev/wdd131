@@ -45,10 +45,17 @@ nav a {
 }
 
 main {
+    display: grid;
     background-color: lightslategray;
     font-size: larger;
     padding: 10px;
     color: black;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: 150px;
 }
 
 aside {
