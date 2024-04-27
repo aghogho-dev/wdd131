@@ -41,7 +41,7 @@ body>main {
         "d d _ e";
     grid-template-columns: 1fr 1fr 10px 1fr;
     text-align: center;
-    padding: 10px auto;
+    padding: 10px 0;
 }
 
 
@@ -98,7 +98,7 @@ header>h1 {
     background-color: darkslategrey;
     text-align: center;
     color: rgba(247, 245, 245, 0.856);
-    padding: 10px auto;
+    padding: 10px 0;
 }
 
 main section>h2 {
@@ -129,7 +129,7 @@ footer>p:last-child {
 h1,
 h2 {
     font-family: var(--font-one);
-    padding: 5px auto;
+    padding: 5px 0;
 }
 
 nav>a:hover {
