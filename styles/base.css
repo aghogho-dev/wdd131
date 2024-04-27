@@ -71,8 +71,7 @@ img {
     margin: 10px 3px 5px 5px;
 }
 
-img:last-of-type
-{
+img:last-of-type {
     float: left;
     width: 150px;
     height: auto;
@@ -105,10 +104,6 @@ main section>h2 {
     background-color: darkslategrey;
     color: rgba(247, 245, 245, 0.856);
     text-align: center;
-}
-
-header h1>span {
-    color: yellowgreen;
 }
 
 footer {
@@ -149,4 +144,3 @@ ul {
 ul>li>a {
     text-decoration: none;
 }
-
