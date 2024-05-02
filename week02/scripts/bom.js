@@ -9,14 +9,27 @@ btnVar.addEventListener("click", () => {
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
 
-    li.textContent = inputVar.value;
-    delBtn.textContent = "❌";
+    if (inputVar.value.trim() === "") {
+        inputVar.focus();
+    }
+    else {
 
-    li.appendChild(delBtn);
-    listVar.appendChild(li);
+        li.textContent = inputVar.value;
+        delBtn.textContent = "❌";
+    
+        li.appendChild(delBtn);
+        listVar.appendChild(li);
+    
+        delBtn.addEventListener("click", () => {
+            listVar.removeChild(li);
+            inputVar.focus()
+        });
 
-    delBtn.addEventListener("click", () => {
-        listVar.removeChild(li);
-    });
+        inputVar.value = "";
+        inputVar.focus();
+        
+    }
+
+   
 
 });
