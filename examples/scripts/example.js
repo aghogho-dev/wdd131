@@ -222,30 +222,47 @@
 
 
 
-const list = document.getElementById("shoppingList");
-const input = document.getElementById("item");
-const addButton = document.getElementById("addBtn");
+// const list = document.getElementById("shoppingList");
+// const input = document.getElementById("item");
+// const addButton = document.getElementById("addBtn");
 
 
-addButton.addEventListener("click", () => {
-    const inputValue = input.value;
-    input.value = "";
+// addButton.addEventListener("click", () => {
+//     const inputValue = input.value;
+//     input.value = "";
 
-    const listItem = document.createElement("li");
-    const itemText = document.createElement("span");
-    const delButton = document.createElement("button");
+//     const listItem = document.createElement("li");
+//     const itemText = document.createElement("span");
+//     const delButton = document.createElement("button");
 
-    listItem.appendChild(itemText);
-    listItem.appendChild(delButton);
+//     listItem.appendChild(itemText);
+//     listItem.appendChild(delButton);
 
-    itemText.textContent = inputValue;
-    delButton.textContent = "Delete";
+//     itemText.textContent = inputValue;
+//     delButton.textContent = "Delete";
 
-    list.appendChild(listItem);
+//     list.appendChild(listItem);
 
-    delButton.addEventListener("click", () => {
-        list.removeChild(listItem);
-    });
+//     delButton.addEventListener("click", () => {
+//         list.removeChild(listItem);
+//     });
 
-    input.focus();
-});
+//     input.focus();
+// });
+
+
+const reveal1 = document.querySelector("#div-1");
+const reveal2 = document.querySelector("#div-2");
+const reveal3 = document.querySelector("#div-3");
+const reveal4 = document.querySelector("#div-4");
+
+const babygender = "m";
+
+reveal1.textContent = `1. 🎉 Congratulations! You are having a <strong>${babygender}</strong>!`;
+reveal2.innerHTML = `2. 🎉 Congratulations! You are having a <strong>${babygender}</strong>!`;
+reveal3.HTMLvalue = `3. 🎉 Congratulations! You are having a <strong>${babygender}</strong>!`;
+reveal4.text = `4. 🎉 Congratulations! You are having a <strong>${babygender}</strong>!`;
+
+
+reveal1.style.setProperty("font-weight", "700");
+reveal2.style.fontWeight = 700;
