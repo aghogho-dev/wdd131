@@ -1,0 +1,82 @@
+/* .one {
+    background-color: cornflowerblue;
+}
+
+.two {
+    color: black;
+    background-color: aquamarine;
+}
+
+.three {
+    background-color: cornflowerblue;
+}
+
+.four {
+    background-color: cornflowerblue;
+}
+
+.five {
+    background-color: cornflowerblue;
+} */
+
+
+/* .container {
+    --main-bg-color: cornflowerblue;
+} */
+
+/* :root {
+    --main-bg-color: cornflowerblue;
+}
+
+.one {
+    background-color: var(--main-bg-color);
+}
+
+.two {
+    color: black;
+    background-color: aquamarine;
+}
+
+.three {
+    background-color: var(--main-bg-color);
+}
+
+.four {
+    background-color: var(--main-bg-color);
+}
+
+.five {
+    background-color: var(--main-bg-color);
+} */
+
+
+
+/* div {
+    background-color: var(--box-color);
+}
+
+.two {
+    --box-color: cornflowerblue;
+}
+
+.three {
+    --box-color: aquamarine;
+} */
+
+
+@property --box-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: cornflowerblue;
+}
+
+.parent {
+    --box-color: green;
+    background-color: var(--box-color);
+}
+
+.child {
+    width: 80%;
+    height: 40%;
+    background-color: var(--box-color);
+}
