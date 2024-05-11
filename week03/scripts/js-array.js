@@ -198,3 +198,11 @@
 
 // const arr = multiply(2, 1, 2, 3);
 // console.log(arr);
+
+
+const firstName = "Excellent";
+const lastName = "Programmer";
+
+const fullName = (firstName, lastName) => `${firstName} ${lastName}`;
+
+document.querySelector('#fullName').innerHTML = fullName(firstName, lastName);
