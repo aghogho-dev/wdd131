@@ -11,4 +11,5 @@
 *::after {
     box-sizing: border-box;
     font-family: var(--fontCn);
+    color: var(--ColorMd);
 }
