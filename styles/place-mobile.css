@@ -2,3 +2,9 @@
     --font-one: 'Frank Ruhl Libre', serif;
     --font-two: 'Slabo 27px', serif;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
