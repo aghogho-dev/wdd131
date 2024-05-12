@@ -1,11 +1,14 @@
 :root {
-    --fontHd: "Frank Ruhl Libre", serif;
-    --fontCn: "Slabo 27px", serif;
+    --fontCn: "Frank Ruhl Libre", serif;
+    --fontHd: "Slabo 27px", serif;
+    --colorHd: #00247D;
+    --colorSd: #FF0000;
+    --ColorMd: #FFF;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-    font-family: var(--fontHd);
+    font-family: var(--fontCn);
 }
