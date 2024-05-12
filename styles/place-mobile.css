@@ -4,12 +4,48 @@
     --colorHd: #00247D;
     --colorSd: #FF0000;
     --ColorMd: #FFF;
+    --ColorBs: rgba(0, 0, 0, .8);
 }
 
 *,
 *::before,
 *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: var(--fontCn);
+}
+
+body {
+    display: grid;
+    margin: 1rem auto;
+    max-width: 60%;
+    gap: .2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+    background-color: var(--colorHd);
+    height: 100px;
     color: var(--ColorMd);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+header p {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: var(--colorSd);
+    height: 30px;
 }
