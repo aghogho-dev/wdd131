@@ -5,6 +5,8 @@
     --colorSd: #FF0000;
     --ColorMd: #FFF;
     --ColorBs: rgba(0, 0, 0, .8);
+    --fontSn: 18px;
+    --borderFn: 2px solid rgba(0, 0, 0, .25);
 }
 
 *,
@@ -20,9 +22,16 @@ body {
     margin: 1rem auto;
     max-width: 60%;
     gap: .2rem;
+    font-family: var(--fontCn);
+}
+
+h1,
+h2 {
+    font-family: var(--fontHd);
 }
 
 img {
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -48,4 +57,44 @@ header p {
     grid-row: 2;
     background-color: var(--colorSd);
     height: 30px;
+}
+
+main {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main p {
+    font-size: var(--fontSn);
+}
+
+main h2 {
+    margin: 10px 0;
+}
+
+#data,
+#weather,
+footer {
+    border-top: var(--borderFn);
+    margin-top: 10px;
+
+}
+
+#weather img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+footer {
+    display: grid;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--colorHd);
+    color: whitesmoke;
+    font-size: 13px;
 }
