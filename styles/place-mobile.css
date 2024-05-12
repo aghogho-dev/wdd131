@@ -1,8 +1,6 @@
-
-
 :root {
-    --font-one: 'Frank Ruhl Libre', serif;
-    --font-two: 'Slabo 27px', serif;
+    --fontHd: "Frank Ruhl Libre", serif;
+    --fontCn: "Slabo 27px", serif;
 }
 
 *,
