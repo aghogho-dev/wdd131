@@ -9,7 +9,7 @@
     --borderFn: 2px solid rgba(0, 0, 0, .25);
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
     
     main {
         display: grid;
