@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
             img.setAttribute("alt", `${temple.templeName} Temple`);
             img.setAttribute("loading", "lazy");
             img.setAttribute("width", "300");
-            img.setAttribute("height", "auto");
+            img.setAttribute("height", "400");
         
             card.appendChild(name);
             card.appendChild(location);
