@@ -1,0 +1,141 @@
+:root {
+    --font-one: 'Frank Ruhl Libre', serif;
+    --font-two: 'Slabo 27px', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1rem auto;
+    max-width: 90%;
+}
+
+header {
+    background-color: rgb(78, 13, 143);
+    padding: 20px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: var(--font-two);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: var(--font-two);
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 2rem;
+}
+
+#menu {
+    display: block;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 3px 9px;
+    background-color:rgb(154, 144, 165);
+    color: black;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+#menu::before {
+    content: "≡"
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: none;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    padding: 1px;
+    font-family: var(--font-two);
+}
+
+nav a:hover, nav a:active {
+    color: black;
+    background-color: whitesmoke;
+}
+
+#menu.open::before {
+    content: "X"
+}
+
+.open>a {
+    display: block;
+}
+
+
+main {
+    width: 90%;
+    margin: auto auto;
+}
+
+/* main>section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+} */
+
+img {
+    width: 300px;
+    height: auto;
+    box-shadow: 5px 5px 5px grey;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-family: var(--font-one);
+    text-align: left;
+}
+
+footer {
+    display: grid;
+    text-align: center;
+    font-family: var(--font-two);
+    /* margin: 10px; */
+    padding: 10px;
+    background-color: rgb(78, 13, 143);
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+div {
+    text-align: center;
+}
+
+.text-color {
+    color:rgb(78, 13, 143)
+}
+
+div p:last-of-type {
+    margin-bottom: 10px;
+}
+
+
