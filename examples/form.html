@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Forms</title>
+    <link href="styles/form.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Form Input Pattern Attribute Testing</h1>
+        <p> 1️⃣In the HTML panel, enter a vaild, input pattern.<br> The default pattern is 6 to 10 characters inclusive with at least one number,
+            <br> one special character, one upper case and one lower case.
+        </p>
+        <p><code>pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{6,10}$"</code></p>
+
+        <p>2️⃣ In the preview panel, enter a test value in the input field.</p>
+        <p>3️⃣ The input text and border will be green if the input meets the requirements of the pattern.</p>
+
+        <hr>
+        <form>
+            <label for="test">Enter Test Character:</label>
+            <input type="text" id="text" name="text" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{6,10}$" title="6 to 10 characters inclusive with at least on ne number, one special character, one upper case and one lower case letter.">
+        </form>
+    </main>
+</body>
+</html>
