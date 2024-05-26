@@ -10,14 +10,14 @@
 
 body {
     margin: 1rem auto;
-    max-width: 80%;
+    max-width: 90%;
     font-family: var(--font-two)
 }
 
 
 header,
 footer {
-    background-color: lightgreen;
+    background-color: rgba(144, 238, 144, 0.85);
     text-align: center;
     font-family: var(--font-one);
 }
@@ -34,4 +34,12 @@ h3 {
 
 h2 {
     background-color: rgba(144, 238, 144, 0.5);
+}
+
+h3 {
+    background-color: rgba(144, 238, 144, 0.3);
+}
+
+img {
+    display: block;
 }
