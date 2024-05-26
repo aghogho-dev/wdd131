@@ -56,17 +56,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     
-    const reviewsDisplay = document.querySelector(".reviews");
+    // const reviewsDisplay = document.querySelector(".reviews");
 
-    let numberReviews = Number(window.localStorage.getItem("number-reviews")) || 0;
+    // let numberReviews = Number(window.localStorage.getItem("number-reviews")) || 0;
 
-    if (numberReviews !== 0) {
-        reviewsDisplay.textContent = numberReviews;
-    } else {
-        reviewsDisplay.textContent = `This is your first review. 🥳 Thanks!`; 
-    }
+    // if (numberReviews !== 0) {
+    //     reviewsDisplay.textContent = numberReviews;
+    // } else {
+    //     reviewsDisplay.textContent = `This is your first review. 🥳 Thanks!`; 
+    // }
 
-    numberReviews++;
+    // numberReviews++;
 
-    localStorage.setItem("number-reviews", numberReviews);
+    // localStorage.setItem("number-reviews", numberReviews);
 });

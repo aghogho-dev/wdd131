@@ -14,7 +14,7 @@
 
             let numberReviews = Number(window.localStorage.getItem("number-reviews")) || 0;
 
-            // numberReviews++;
+            numberReviews++;
 
             if (numberReviews > 1) {
                 reviewsDisplay.textContent = numberReviews;
@@ -22,7 +22,7 @@
                 reviewsDisplay.textContent = `This is your first review. 🥳 Thanks!`; 
             }
 
-            // localStorage.setItem("number-reviews", numberReviews);
+            localStorage.setItem("number-reviews", numberReviews);
         });
     </script>
 </head>
