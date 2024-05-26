@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Show how to develop a form using best practice">
+    <meta name="author" content="Aghogho Monorien">
+    <title>Thank You | Aghogho Monorien</title>
+    <link href="styles/form.css" rel="stylesheet">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const reviewsDisplay = document.querySelector(".reviews");
+
+            let numberReviews = Number(window.localStorage.getItem("number-reviews")) || 0;
+
+            // numberReviews++;
+
+            if (numberReviews > 1) {
+                reviewsDisplay.textContent = numberReviews;
+            } else {
+                reviewsDisplay.textContent = `This is your first review. 🥳 Thanks!`; 
+            }
+
+            // localStorage.setItem("number-reviews", numberReviews);
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <h2>Thank You for Submitting a Review</h2>
+        <p>We greatly appreciate the time spent completing the review.</p>
+        <p><span class="label">You have submitted: </span><span class="reviews"></span></p>
+
+    </main>
+        
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🌼 Aghogho Monorien 🌼 Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
