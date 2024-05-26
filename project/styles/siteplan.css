@@ -3,3 +3,33 @@
     --font-two: 'Slabo 27px', serif;
 }
 
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1rem auto;
+    max-width: 80%;
+}
+
+
+header,
+footer {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+footer>p {
+    padding: 2%;
+}
+
+h1,
+h2,
+h3 {
+    padding: 2%;
+}
+
+h2 {
+    background-color: rgba(144, 238, 144, 0.5);
+}
