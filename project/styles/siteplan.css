@@ -17,7 +17,8 @@ body {
 
 header,
 footer {
-    background-color: rgba(144, 238, 144, 0.85);
+    /* background-color: rgba(144, 238, 144, 0.85); */
+    background-color: #9DC5BB;
     text-align: center;
     font-family: var(--font-one);
 }
@@ -33,11 +34,11 @@ h3 {
 }
 
 h2 {
-    background-color: rgba(144, 238, 144, 0.5);
+    background-color: #DEE5E5;
 }
 
 h3 {
-    background-color: rgba(144, 238, 144, 0.3);
+    background-color: #DEE5E5;
 }
 
 img {
