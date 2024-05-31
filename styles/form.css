@@ -53,7 +53,7 @@ form {
 
 label,
 select,
-input[type=date],
+input[type="date"],
 textarea {
     display: block;
     width: 100%;
@@ -98,8 +98,8 @@ form {
 }
 
 
-input[type=text],
-input[type=date],
+input[type="text"],
+input[type="date"],
 textarea,
 select {
     background-color: #eee;
