@@ -154,3 +154,28 @@ footer {
     text-align: center;
     font-size: 1rem;
 }
+
+@media only screen and (max-width: 400px) {
+    main {
+        max-width: 380px;
+    }
+
+    label,
+    select,
+    input[type="date"],
+    textarea {
+        
+        max-width: 250px;
+    }
+
+    #check,
+    #star {
+        max-width: 250px;
+    }
+
+    .star {
+        font-size: 0.5rem;
+    } 
+
+
+}
