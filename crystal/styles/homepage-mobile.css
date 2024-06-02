@@ -163,7 +163,9 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    color: var(--color-six)
+    color: var(--color-six);
+    padding: .5rem;
+    text-align: center;
 }
 
 hr {
