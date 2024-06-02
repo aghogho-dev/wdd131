@@ -205,7 +205,8 @@ h2 {
 }
 
 .name-items,
-#menu-h {
+#menu-h,
+#submit-main {
     font-family: cursive;
 }
 
@@ -239,7 +240,8 @@ textarea {
     display: flex;
 }
 
-#form-main {
+#form-main,
+#submit-main {
     margin: 1rem auto;
     max-width: 80%;
 }
@@ -253,4 +255,6 @@ input[type="submit"] {
     font-family: cursive;
 }
 
-
+#submit-main {
+    height: 200px;
+}
