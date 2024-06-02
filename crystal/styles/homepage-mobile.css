@@ -15,7 +15,7 @@
 
 body {
     margin: 1rem auto;
-    max-width: 90%;
+    max-width: 80%;
 }
 
 #menu-btn:before {
@@ -89,4 +89,26 @@ nav.open {
 #icon {
     padding: 1rem;
 }
+
+picture > img {
+    width: 100%;
+    height: 20%;
+}
+
+/* .image-container:hover {
+    filter: blur(5px);
+} */
+
+#image-wrapper {
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+    /* top: 8.5rem; */
+    /* width: 80%; */
+    /* height: 100%; */
+}
+
+
 

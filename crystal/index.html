@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,15 @@
     <meta name="author" content="Aghogho Monorien">
     <title>Crystal - Timeless Restaurant</title>
     <link href="styles/homepage-mobile.css" rel="stylesheet">
-    <link href="styles/homepage-tablet.css" rel="stylesheet">
     <link href="styles/homepage-desktop.css" rel="stylesheet">
     <script src="scripts/homepage.js" defer></script>
 </head>
+
 <body>
     <header>
-        
+
         <img id="icon" src="images/crystal-icon.png" alt="Crystal restuarant icon" width="64" height="64">
-        
+
         <div id="menu">
             <div id="menu-btn" title="Menu Button"></div>
             <nav>
@@ -25,15 +26,25 @@
                 <a href="#" title="Private Dining and Catering">PRIVATE DINING AND CATERING</a>
                 <a href="#" title="Contact Us page">CONTACT US</a>
             </nav>
-        </div> 
+        </div>
     </header>
 
     <main>
-
+        <div id="image-wrapper">
+            <picture class="image-container">
+                <source media="(min-width: 600px)" srcset="images/food-one-desktop.webp">
+                <img id="image-top" src="images/food-one-small.webp" alt="Food image" width="400" height="800">
+            </picture>
+            <picture class="image-container">
+                <source media="(min-width: 600px)" srcset="images/food-two-desktop.webp">
+                <img id="image-bottom" src="images/food-two-small.webp" alt="Food image" width="400" height="800">
+            </picture>
+        </div>
     </main>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
