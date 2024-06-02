@@ -1,0 +1,92 @@
+:root {
+    --color-one: #DEE5E5;
+    --color-two: #9DC5BB;
+    --color-three: #17B890;
+    --color-four: #5E807F;
+    --color-five: rgba(0, 0, 0, 0.85);
+    --color-six: #339AF0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1rem auto;
+    max-width: 90%;
+}
+
+#menu-btn:before {
+    content: "≡";
+}
+
+#menu-btn {
+    display: block;
+    font-size: 3rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: var(--color-six);
+    padding: 5px 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: none;
+    text-decoration: none;
+    color: var(--color-six);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 1rem;
+}
+
+header,
+footer {
+    background-color: var(--color-five);
+}
+
+nav a:hover, 
+nav a:active {
+    text-decoration: underline;
+}
+
+#menu-btn.open::before {
+    content: "x";
+    font-size: 3rem;
+}
+
+.open a {
+    display: block;
+}
+
+nav.open {
+    gap: 20px;
+}
+
+#menu {
+    text-align: right;
+}
+
+#icon {
+    display: block;
+    width: 7rem;
+    height: 7rem;
+}
+
+#menu,
+#icon {
+    padding: 1rem;
+}
+
