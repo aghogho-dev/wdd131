@@ -26,8 +26,45 @@
         </div>
     </header>
 
-    <main>
-        <p>This is serious</p>
+    <main id="form-main">
+        <form method="get" action="submit.html">
+
+            <h1>Contact US</h1>
+
+            <div>
+                <label>Name
+                    <input type="text" name="your-name" id="your-name" placeholder="John Doe" required>
+                </label>
+            </div>
+
+            <div>
+                <label>Email
+                    <input type="email" name="email" id="email" placeholder="john@example.com" required>
+                </label>
+            </div>
+
+            <div>
+                <p>What do you want to do?</p>
+                <div id="radio-btn">
+                    <label>Reservation
+                        <input type="radio" name="reservation" id="reservation" required>
+                    </label>
+                    <label>Enquiry
+                        <input type="radio" name="reservation" id="enquiry" required>
+                    </label>
+                </div>
+                
+            </div>
+
+            <div>
+                <label>Write Comment
+                    <textarea id="comment" name="comment" required></textarea>
+
+                </label>
+            </div>
+            
+            <input type="submit" value="Post">
+        </form>
     </main>
     <footer>
         <p>&copy;<span id="currentyear"></span> 🌼 Aghogho Monorien 🌼 Nigeria</p>

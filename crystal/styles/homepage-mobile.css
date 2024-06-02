@@ -209,6 +209,39 @@ h2 {
     font-family: cursive;
 }
 
+form {
+    padding: 5%;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    border: 1px solid var(--color-five);
+    border-radius: 1rem;
+}
 
+label,
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    padding: .5rem;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0.5em;
+    font-size: 1rem
+}
+
+#radio-btn {
+    display: flex;
+}
+
+#form-main {
+    margin: 1rem auto;
+    max-width: 60%;
+}
 
 
