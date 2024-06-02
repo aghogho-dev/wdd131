@@ -12,6 +12,31 @@
         height: 32.5rem;
     }
 
+
+    #dining {
+        display: block;
+        width: 300px;
+        height: auto;
+    } 
+
+    .the-aside {
+        text-align: center;
+        margin-left: .5rem;
+    }
+
+    .the-aside p {
+        line-height: 1.1; 
+        padding: .2rem;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+    
+    #dine {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
     #private-dining {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -19,23 +44,7 @@
         align-items: center;
         height: 250px;
         padding: 0 .5rem;
-        line-height: 1.7;
-    }
-    
-    #dining {
-        display: block;
-        width: 300px;
-        height: auto;
-    }
-    .the-aside {
-        text-align: center;
-        margin-left: .5rem;
-    }
-    
-    #dine {
-        display: grid;
-        justify-content: center;
-        align-items: center;
+
     }
     
 }
