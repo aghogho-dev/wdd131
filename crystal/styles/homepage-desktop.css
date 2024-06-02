@@ -1,3 +1,19 @@
 @media only screen and (min-width: 600px) {
-   
+
+    main {
+        margin: 0 6rem;
+    }
+
+    picture > img {
+        height: 500px;
+    }
+
+    #image-wrapper {
+        height: 32.5rem;
+    }
+    
 }
+
+
+
+

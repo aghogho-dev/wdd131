@@ -15,7 +15,7 @@
 
 body {
     margin: 1rem auto;
-    max-width: 80%;
+    max-width: 60%;
 }
 
 #menu-btn:before {
@@ -92,23 +92,45 @@ nav.open {
 
 picture > img {
     width: 100%;
-    height: 20%;
+    max-height: 15%;
+    height: 400px;
 }
 
 /* .image-container:hover {
     filter: blur(5px);
 } */
 
+
+
 #image-wrapper {
     position: relative;
+    height: 26.5rem;
 }
+
 
 .image-container {
     position: absolute;
-    /* top: 8.5rem; */
-    /* width: 80%; */
-    /* height: 100%; */
+    width: 100%;
+    z-index: -1;
 }
 
 
+#welcome {
+  
+    z-index: -1;
+}
 
+#welcome h1 {
+    font-size: 2rem;
+    font-family: cursive;
+    padding: 0 0 .5rem;
+}
+
+footer {
+    height: 4rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--color-six)
+}
