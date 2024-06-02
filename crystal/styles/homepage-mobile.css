@@ -125,6 +125,19 @@ picture > img {
     font-size: 2rem;
     font-family: cursive;
     padding: 0 0 .5rem;
+    background-color: var(--color-five);
+    color: var(--color-one)
+}
+
+#welcome span {
+    color: var(--color-six);
+}
+
+#welcome p {
+    line-height: 1.5;
+    padding: .2rem;
+    text-align: center;
+    margin: 0.5rem 0;
 }
 
 footer {
@@ -135,3 +148,4 @@ footer {
     font-size: 1rem;
     color: var(--color-six)
 }
+
