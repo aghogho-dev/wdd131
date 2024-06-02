@@ -189,6 +189,24 @@ h2 {
     margin: 1rem;
 }
 
+#menu-items {
+    border: 1px solid var(--color-five);
+    margin: 1rem auto;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.forward,
+.shy {
+    display: grid;
+    gap: 1rem;
+    margin: .5rem;
+}
+
+.name-items {
+    font-family: cursive;
+}
 
 
 
