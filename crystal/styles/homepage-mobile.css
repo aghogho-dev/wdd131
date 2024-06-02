@@ -204,7 +204,8 @@ h2 {
     margin: .5rem;
 }
 
-.name-items {
+.name-items,
+#menu-h {
     font-family: cursive;
 }
 
