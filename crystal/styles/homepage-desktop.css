@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
 
     main {
         margin: 0 6rem;
@@ -10,6 +10,32 @@
 
     #image-wrapper {
         height: 32.5rem;
+    }
+
+    #private-dining {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        padding: 0 .5rem;
+        line-height: 1.7;
+    }
+    
+    #dining {
+        display: block;
+        width: 300px;
+        height: auto;
+    }
+    .the-aside {
+        text-align: center;
+        margin-left: .5rem;
+    }
+    
+    #dine {
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
     
 }

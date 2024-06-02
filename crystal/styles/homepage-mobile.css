@@ -117,14 +117,14 @@ picture > img {
 
 
 #welcome {
-  
+    display: grid;
     z-index: -1;
 }
 
 #welcome h1 {
     font-size: 2rem;
     font-family: cursive;
-    padding: 0 0 .5rem;
+    padding: 0 0 .5rem 0.5rem;
     background-color: var(--color-five);
     color: var(--color-one)
 }
@@ -140,6 +140,21 @@ picture > img {
     margin: 0.5rem 0;
 }
 
+.btn-lnk {
+    text-decoration: none;
+    margin: 0 auto 0.5rem;
+    border: 1px solid black;
+    border-radius: .7rem;
+    padding: 1.5%;
+    font-weight: 600;
+    box-shadow: 1px 2px .5px .5px var(--color-five);
+}
+
+.btn-lnk:visited,
+.btn-lnk:active {
+    color: black;
+}
+
 footer {
     height: 4rem;
     display: grid;
@@ -148,4 +163,19 @@ footer {
     font-size: 1rem;
     color: var(--color-six)
 }
+
+hr {
+    margin: 1.5rem 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: cursive;
+    padding: 0 0 .5rem 0.5rem;
+    background-color: var(--color-five);
+    color: var(--color-one)  
+}
+
+
+
 
